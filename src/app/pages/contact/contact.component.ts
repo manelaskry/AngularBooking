@@ -5,12 +5,12 @@ import { RouterLink } from '@angular/router';
 import { RoomsComponent } from '../rooms/rooms.component';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-contact',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterLink, RoomsComponent],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  imports: [ FooterComponent, RouterLink, RoomsComponent],
+  templateUrl: './contact.component.html',
+  styleUrl: './contact.component.css'
 })
-export class HomeComponent {
+export class ContactComponent {
 
 }
