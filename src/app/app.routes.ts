@@ -1,12 +1,21 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import {SigninComponent} from './pages/signin/signin.component';
+import { RoomsComponent } from './pages/rooms/rooms.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MybookingComponent } from './pages/mybooking/mybooking.component';
+import { AboutComponent } from './pages/about/about.component';
 import { ReservationComponent } from './pages/reservation/reservation.component';
 
 
 export const routes: Routes = [
-    { path: 'app-signin', component: SigninComponent },
-    { path: 'app-home', component: HomeComponent},
+    {path: 'app-home', component: HomeComponent},
+    {path: 'app-signin', component: SigninComponent },
+    {path: 'app-rooms', component: RoomsComponent},
+    {path: 'app-contact', component: ContactComponent},
+    {path: 'app-mybooking', component: MybookingComponent},
+    {path: 'app-about', component: AboutComponent},
     { path: 'app-reservation', component:ReservationComponent},
    
 ];
