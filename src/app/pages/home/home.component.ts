@@ -7,7 +7,7 @@ import { RoomsComponent } from '../rooms/rooms.component';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, RouterLink, RoomsComponent],
+  imports: [ RouterLink, RoomsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
